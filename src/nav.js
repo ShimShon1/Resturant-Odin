@@ -17,7 +17,7 @@ function loadNav(){
     content.prepend(header)
     
 
-    loadHome()
+    loadMenu()
     let homeTab = document.createElement('div')
     homeTab.textContent = "Home"
     homeTab.addEventListener("click", () =>{main.innerHTML = "";  loadHome()} )
