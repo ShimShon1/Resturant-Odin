@@ -128,8 +128,11 @@ header>div:hover{
     width: 60%;
 }
 .dish-img{
-    height: 7rem;
-    width: 10rem;
+    height: 8rem;
+    width: 11rem;
+    border-radius: 7px;
+    border: 1px double black;
+    box-shadow: 1px 1px 1px black;
 }
 
 .menu-dish h3{
@@ -144,10 +147,12 @@ header>div:hover{
 }
 
 .dishes-cont{
-    margin-top: 7%;
+    height: 70%;
+    margin-top: 5%;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
     gap: 5%;
 }
 

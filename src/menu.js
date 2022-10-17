@@ -1,6 +1,7 @@
 import porkImg from "./images/apple-and-pork.png"
-
-
+import fishSoupImg from "./images/fish-soup.png"
+import greenPattiesImg from "./images/green-patties.png"
+import rolledPorkImg from "./images/rolled-pork.jpg"
 function loadMenu(){
     let main = document.querySelector("main")
     console.log("Menu loaded")
@@ -67,10 +68,10 @@ function loadMenu(){
         
     }
 
-   createDish("hambubub","5.55")
-   createDish("hambubub","5.55")
-   createDish("hambubub","5.55")
-   createDish("hambubub","5.55")
+   createDish("Pork and Apple","25$", porkImg, "The boar Sæhrimnir  is slaughtered and eaten every night. And right after, he comes back to life.")
+   createDish("Fish Soup","12$",fishSoupImg,"fish and shellfish were an important supplement to the diet of a viking and a great source of protein")
+   createDish("Green Patties","10$",greenPattiesImg, "The nature's larder is bursting and the wild plants - the weeds - stand knee high.")
+   createDish("Rolled Pork","20$", rolledPorkImg, "Pork rolled with Summer savory, a very old, aromatic herb")
 
 }
 
