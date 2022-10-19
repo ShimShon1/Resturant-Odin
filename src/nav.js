@@ -6,7 +6,6 @@ import loadMenu from "./menu"
 import mainTitle from "./main-title"
 
 function loadNav(){
-    console.log(helmet)
     
 
     let content = document.querySelector("#content")
@@ -17,7 +16,7 @@ function loadNav(){
     content.prepend(header)
     
 
-    loadMenu()
+    loadHome()
     let homeTab = document.createElement('div')
     homeTab.textContent = "Home"
     homeTab.addEventListener("click", () =>{main.innerHTML = "";  loadHome()} )
