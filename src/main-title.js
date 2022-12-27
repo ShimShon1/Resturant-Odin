@@ -1,7 +1,6 @@
 import helmet from "./images/viking-helmet.png"
 
-function mainTitle(){
-    let main = document.querySelector("main")
+export function mainTitle(){
     let content = document.querySelector("#content")
 
     let mainHeading = document.createElement("div")
@@ -15,7 +14,6 @@ function mainTitle(){
     let titlePara = document.createElement("p")
     titlePara.textContent = "Eat Like Odin Did"
 
-    console.log(titlePara)
     title.textContent = "The Odin Resturant"
     mainHeading.append(titlePara)
     mainHeading.prepend(title)
@@ -24,4 +22,3 @@ function mainTitle(){
 }
 
 
-export default mainTitle

@@ -1,10 +1,9 @@
 import resturantImg from "./images/resturant.jpg"
 
-function loadHome(){
+export function loadHome(){
     let hr = document.createElement("hr")
-
-    console.log(resturantImg)
     let main = document.querySelector("main")
+
     main.removeAttribute('class')
     main.classList.add("main-home")
     let homePara = document.createElement('p')
@@ -26,4 +25,3 @@ function loadHome(){
 
 }
 
-export default loadHome

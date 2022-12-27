@@ -2,9 +2,9 @@ import porkImg from "./images/apple-and-pork.png"
 import fishSoupImg from "./images/fish-soup.png"
 import greenPattiesImg from "./images/green-patties.png"
 import rolledPorkImg from "./images/rolled-pork.jpg"
-function loadMenu(){
+
+export function loadMenu(){
     let main = document.querySelector("main")
-    console.log("Menu loaded")
     main.removeAttribute('class')
     main.classList.add("main-menu")
 
@@ -75,4 +75,3 @@ function loadMenu(){
 
 }
 
-export default loadMenu

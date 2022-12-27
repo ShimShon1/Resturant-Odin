@@ -1,3 +1,3 @@
-import loadNav from './nav';
+import {loadNav} from './nav';
 import './styles.css'
 loadNav()

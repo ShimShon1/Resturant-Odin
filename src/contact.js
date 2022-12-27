@@ -1,5 +1,4 @@
-
-function loadContact(){
+export function loadContact(){
     let main = document.querySelector("main")
     main.removeAttribute('class')
     main.classList.add("main-contact")
@@ -88,4 +87,3 @@ function loadContact(){
 
 }
 
-export default loadContact

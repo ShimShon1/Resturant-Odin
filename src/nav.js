@@ -1,11 +1,10 @@
-import helmet from "./images/viking-helmet.png"
 
-import loadHome from "./home"
-import loadContact from "./contact"
-import loadMenu from "./menu"
-import mainTitle from "./main-title"
+import {loadHome} from "./home"
+import {loadContact} from "./contact"
+import {loadMenu} from "./menu"
+import {mainTitle} from "./main-title"
 
-function loadNav(){
+export function loadNav(){
     
 
     let content = document.querySelector("#content")
@@ -17,6 +16,7 @@ function loadNav(){
     
 
     loadHome()
+
     let homeTab = document.createElement('div')
     homeTab.textContent = "Home"
     homeTab.addEventListener("click", () =>{main.innerHTML = "";  loadHome()} )
@@ -37,10 +37,6 @@ function loadNav(){
 
     mainTitle()
 
-
-    
-
    
 }
 
-export default loadNav
